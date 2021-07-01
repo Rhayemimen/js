@@ -1,0 +1,32 @@
+span
+{
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+#photo-list
+{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#photo-list li
+{
+    list-style-type: none;
+ 
+}
+#photo-list img
+{
+   margin: 1em;
+   padding: 0.5em;
+}
+img:hover
+{
+    background-color: silver;
+    border-radius: 2em;
+}
+.selected
+{
+    background-color: forestgreen;
+    border-radius: 2em;
+}

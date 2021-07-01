@@ -1,0 +1,23 @@
+.project-section {
+    float: left;
+}
+
+.project-section > span {
+    display: block;
+}
+.mots
+{
+    position: relative;
+    text-decoration: underline;
+}
+.tooltip
+{
+    display: none;
+}
+.clickmots
+{   position: absolute;
+    display: block;
+    background-color: black;
+    top: -100px;
+
+}

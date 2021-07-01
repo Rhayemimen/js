@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /* alert("bonjour")
+        document.write("au revoir")
+        console.log("test")
+        var nom=prompt("donner votre nom")
+        document.write("<h1>"+nom+"</h1>")*/
+        const TVA=0.19
+        var HT,tauxTva,TTC
+        HT=parseFloat(prompt("Entrer un montant HT"))
+        tauxTva=HT*TVA
+        TTC=HT+tauxTva
+        document.write("Montant HT est:",HT,"<br>")
+        document.write("Taux TVA est:",tauxTva,"<br>")
+        document.write("Le montant TTC est:",TTC,"<br>")
+    </script>
+</body>
+</html>
